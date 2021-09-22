@@ -8,7 +8,7 @@ function App() {
   const handleChange = () => {
     axios
       .get(
-        "https://api.generated.photos/api/v1/faces?api_key=YZZPiDqKQWcbWC3Rcylxkw&order_by=random"
+        "https://api.generated.photos/api/v1/faces?api_key=[YOUR API KEY]&order_by=random"
       )
       .then((res) => {
         const uri = res.data.faces[0].urls[4][512];
