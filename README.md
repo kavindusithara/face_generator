@@ -1,4 +1,4 @@
-#Ai Face Generator
+# Ai Face Generator
 
 <img src="./face-gen.png">
 
